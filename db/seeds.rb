@@ -5,29 +5,29 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-users = [User.new(name:'Claudio', lastname:'Alvarez', \
-              password:'123456', email:'calvarez1@miuandes.cl', \
-              address:'San Carlos de Apoquindo'), 
-         User.new(name:'Juan', lastname:'Rataplan', \
-              password:'123456', email:'jrataplan@miuandes.cl', \
-              address:'San Carlos de Apoquindo'),
-         User.new(name:'Raul', lastname:'Rabufetti', \
-              password:'123456', email:'rrabufetti@miuandes.cl', \
-              address:'San Carlos de Apoquindo'),
-         User.new(name:'Raul', lastname:'Ganfolfi', \
-              password:'123456', email:'rgandolfi@miuandes.cl', \
-              address:'San Carlos de Apoquindo'),
-         User.new(name:'Licenciado', lastname:'Varela', \
-              password:'123456', email:'lvarela@miuandes.cl', \
-              address:'San Carlos de Apoquindo')]
+users = [User.new(name:'ClaudioClaudioClaudioClaudio', lastname:'AlvarezAlvarezAlvarez', \
+              password:'1212121212', email:'calvarez1@miuandes.cl', \
+              address:'San Carlos de Apoquindo', phone_number:'123456789'), 
+         User.new(name:'JuanJuanJuanJuanJuan', lastname:'Rataplan', \
+              password:'1212121212', email:'jrataplan@miuandes.cl', \
+              address:'San Carlos de Apoquindo', phone_number:'123456789'),
+         User.new(name:'RaulRaulRaulRaulRaulRaul', lastname:'Rabufetti', \
+              password:'1212121212', email:'rrabufetti@miuandes.cl', \
+              address:'San Carlos de Apoquindo', phone_number:'123456789'),
+         User.new(name:'RaulRaulRaulRaulRaulRaul', lastname:'Ganfolfi', \
+              password:'1212121212', email:'rgandolfi@miuandes.cl', \
+              address:'San Carlos de Apoquindo', phone_number:'123456789'),
+         User.new(name:'LicenciadoLicenciadoLicenciadoLicenciadoLicenciado', lastname:'Varela', \
+              password:'1212121212', email:'lvarela@miuandes.cl', \
+              address:'San Carlos de Apoquindo', phone_number:'123456789')]
               
 for u in users do
   u.save!
 end 
 
-event_venues = [EventVenue.new(name: 'Estadio Nacional', address:'Maraton', capacity: 60000),\
-                EventVenue.new(name: 'Estadio Monumental', address:'Exequiel', capacity: 25000),\
-                EventVenue.new(name: 'Movistar Arena', address:'Matta', capacity: 15000)]
+event_venues = [EventVenue.new(name: 'Estadio Nacional Estadio Nacional', address:'Maraton', capacity: 23),\
+                EventVenue.new(name: 'Estadio Monumental Estadio Monumental', address:'Exequiel', capacity: 25000),\
+                EventVenue.new(name: 'Movistar Arena Movistar Arena', address:'Matta', capacity: 15000)]
                 
 for ev in event_venues do
   ev.save!
