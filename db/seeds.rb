@@ -38,7 +38,7 @@ events = [Event.new(name:'Festival de la Cancion', description: 'Puro reggaeton'
           Event.new(name:'Twisted Sister', description: 'Puro rock',\
           start_date: '2019-04-01', event_venue: event_venues[1]),
           Event.new(name:'Bad Bunny', description: 'Puro Trap',\
-          start_date: '2019-05-01', event_venue: event_venues[2])]
+          start_date: '2001-05-01', event_venue: event_venues[2])]
 
 for e in events do
   e.save!
